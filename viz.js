@@ -168,5 +168,7 @@ function setup() {
 
 setup();
 
+if(typeof problem_data !== 'undefined') loadBenchmark(problem_data); 
+if(typeof solution_data !== 'undefined') loadSolution(solution_data); 
 
 
